@@ -11,7 +11,17 @@ html{
     font-size: 18px;
 }
 header{
-    background-color: aquamarine;
+    background-color: rgb(127, 174, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    border-radius: 50%;
+    border: 3px solid #fff;
 }
 nav{
     background-color: bisque;
@@ -21,6 +31,12 @@ main{
 }
 footer{
     background-color: coral;
+    padding: 5px;
+    line-height: 10px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
 }
 p{
     text-align: justify;
@@ -45,5 +61,52 @@ img{
     margin: 40px auto;
     /* outline: 7px double white; */
     box-shadow: 12px 1px 15px 14px rgba(255, 0, 0, 0.674);
-
+}
+.color{
+    padding: 20px;
+    border: 3px dashed rgba(0, 34, 255, 0.271);
+    margin: 10px 30px;
+    /* outline: 3px solid rgb(5, 37, 178); */
+    box-shadow: 9px 9px 9px 9px rgba(67, 15, 237, 0.396);
+    }
+    h1{
+        color:#63280c;
+        text-shadow: 1px 1px 9px rgba(0, 34, 255, 0.271);
+        padding: 10px;
+    }
+    h1{
+        color: black;
+    }
+h2{
+    color: #e07f52;
+}
+section > h2{
+    color: blue;
+    /* > hijo directo de */
+}
+.imagen + p{
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bloque img{
+    width: 250px;
+    padding: 30px;
+    display: block;
+}
+nav{
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    background-color: #d96e3d;
+    border-radius: 30PX;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover{
+    background-color: black;
+    color: aqua;
+    transition-delay: 0.2s;
 }
